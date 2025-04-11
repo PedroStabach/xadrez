@@ -68,4 +68,3 @@ const pecasInfo = {
       }
     }
   };
-  
