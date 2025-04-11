@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #area {
+    padding: 10px;
+  }
+  
+  .linha {
+    display: flex; /* cada linha será horizontal */
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 1px;
+  }
+  
+  .quadrado {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+.ativo {
+    background-color: black;
+}
