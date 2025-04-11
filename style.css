@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   aside {
     display: flex;
     justify-content: center;
@@ -37,6 +37,11 @@
     align-items: center;
     font-size: 12px;
   }
+h2 {
+    width: 80px;
+    text-align: center;
+}
+
 .ativo {
     background-color: green;
 }
