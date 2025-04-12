@@ -10,6 +10,7 @@
   }
   #area {
     padding: 10px;
+    background-color: #ddda96;
   }
   
   .linha {
@@ -30,12 +31,11 @@
   .quadrado {
     width: 80px;
     height: 80px;
-    background-color: white;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 12px;
+    border-radius: 5px;
   }
 h2 {
     width: 80px;
@@ -43,11 +43,11 @@ h2 {
 }
 
 .ativo {
-    background-color: green;
+    background-color: #93904d;
 }
 .quadrado:hover {
     cursor: pointer;
-    background-color: #4CAF50; /* highlight opcional */
+    background-color: rgb(205, 215, 114); /* highlight opcional */
   }
   .movimento {
     outline: 3px solid yellow;
